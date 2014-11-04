@@ -18,3 +18,25 @@ python manage.py runserver 0.0.0.0:8000
     ('^hello/$', hello),
 #任何位置 插入如下语句触发出错页 来debug
 assert False
+
+#--------------------------------------
+#第四章
+#--------------------------------------
+
+#.py中使用模版 文件开头加入
+from django.conf import settings
+settings.configure()
+
+#用两个大括号括起来的文字（例如 {{ person_name }} ）称为 变量(variable)
+
+#给标签增加一个 reversed 使得该列表被反向迭代：
+{% for athlete in athlete_list reversed %}
+...
+{% endfor %}
+
+#检测列表为空,`` for`` 标签支持一个可选的`` {% empty %}`` 分句
+{% for athlete in athlete_list %}
+    <p>{{ athlete.name }}</p>
+{% empty %}
+    <p>There are no athletes. Only computer programmers.</p>
+{% endfor %}
