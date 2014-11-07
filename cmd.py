@@ -40,3 +40,8 @@ settings.configure()
 {% empty %}
     <p>There are no athletes. Only computer programmers.</p>
 {% endfor %}
+
+#locals() 。它返回的字典对所有局部变量的名称与值进行映射。
+def current_datetime(request):
+    current_date = datetime.datetime.now()
+    return render_to_response('current_datetime.html', locals())
