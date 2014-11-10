@@ -10,5 +10,6 @@ urlpatterns = patterns('',
     #url(r'^admin/', include(admin.site.urls)),
     #(r'^hello/$', hello),
     (r'^time/$', current_datetime),
-    #(r'^time/plus/(\d{1,2})$', hours_ahead),
+    #()为参值, views.py可以创建参数获取
+    (r'^time/plus/(\d{1,2})$', hours_ahead),
 )
