@@ -1,0 +1,11 @@
+2014-11-12 15:33:20 HKT 日志:  数据库上次关闭时间为 2014-11-12 15:32:05 HKT
+2014-11-12 15:33:21 HKT 日志:  数据库系统准备接受连接
+2014-11-12 15:33:21 HKT 日志:  已启动autovacuum
+2014-11-12 15:33:50 HKT 致命错误:  用户 "jiahaibo" Password 认证失败
+2014-11-12 15:33:50 HKT 详细信息:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2014-11-12 15:37:42 HKT 致命错误:  用户 "blue" Password 认证失败
+2014-11-12 15:37:42 HKT 详细信息:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2014-11-12 15:37:58 HKT 致命错误:  用户 "jiahaibo" Password 认证失败
+2014-11-12 15:37:58 HKT 详细信息:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2014-11-12 15:39:33 HKT 致命错误:  用户 "jiahaibo" Password 认证失败
+2014-11-12 15:39:33 HKT 详细信息:  Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
